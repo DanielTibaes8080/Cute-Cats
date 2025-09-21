@@ -1,0 +1,72 @@
+/* global.css */
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tipografia base */
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f3e4eb;
+    color: #222;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Links */
+a {
+    color: #3b82f6;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #2563eb;
+    text-decoration: underline;
+}
+
+/* Imagens responsivas */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Listas sem estilo padrão */
+ul, ol {
+    list-style: none;
+}
+
+/* Botões básicos */
+button {
+    font: inherit;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+/* Remover outline padrão e adicionar acessibilidade */
+button:focus, a:focus {
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
+}
+
+/* Container padrão */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
