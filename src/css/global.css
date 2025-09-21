@@ -23,6 +23,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+}
+
+body.fade-in {
+    opacity: 1;
 }
 
 /* Links */
