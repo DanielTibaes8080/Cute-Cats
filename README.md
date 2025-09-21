@@ -3,7 +3,7 @@
 Uma página web simples e divertida para alegrar seu dia mostrando imagens aleatórias de gatinhos fofos!  
 Cada clique no botão gera uma nova imagem de gato e contabiliza quantos gatinhos você já viu.
 
-![Demonstração no iPhone](src/assets/img/iphone.png)
+![Demonstração no iPhone](src/assets/img/iphonex.png)
 
 ## Funcionalidades
 
